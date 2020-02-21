@@ -348,3 +348,7 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+
+#VStudio Code & Workspace
+.vscode
+Recto-Cube.code-workspace
