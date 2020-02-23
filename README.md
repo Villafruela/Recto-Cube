@@ -1,3 +1,5 @@
+![The recto-Cube](https://www.fablab-moebius.org/wp-content/uploads/2020/02/recto-cube-1536x865.jpg)
+
 # Recto-Cube (En)
 RC Cube artefact made with microbits for Stafinder scenari
 
