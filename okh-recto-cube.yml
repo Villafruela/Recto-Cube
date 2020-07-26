@@ -1,0 +1,130 @@
+%Nom du Manifeste / Projet 1.0
+---
+
+# Le contenu du manifeste de ce projet est licencié sous licence internationale Creative Comons 4.0
+# Les licences pour la modification et distribution du matériel, documentation, code source, etc. sont définies séparément.
+
+# Retirez tous les champs qui ne sont pas utilisés. Les commentaires (précédés d'un #) peuvent aussi être retirés
+
+# Métadonnés du Projet (Manifeste)
+# les anglais utilisent le terme de "manifest" plutôt que "projet" qui est un terme plus vaste
+
+date-created: 2020-02-22                      # Date de création au format AAAA-MM-JJ
+
+#date-updated: [value]                      # Date de mise à jour au format AAAA-MM-JJ
+
+manifest-author:                           # Auteur du manifeste / Projet
+  name: Villafruela                            # Nom | Champs requis au format texte
+  affiliation: Fablab Moebius                     # Affiliation (à une association, entreprise, groupe etc.) | Texte | Facultatif
+  email: n.villafruela@fablab-moebius.org                           # Adresse email
+
+manifest-language: fr-fr # fr-fr pour la france, fr-ca pour le canada français etc.
+
+documentation-language: fr-fr
+
+manifest-is-translation:                   # Si ce manifeste est la traduction d'un autre manifeste, donner les infos de l'original
+  title: [value]                           # Texte | Titre du projet original
+  manifest: [value]                        # URL - chemin absolu | localisation du manifeste OKH
+  web: [value]                             # URL - chemin absolu | site web si existant
+  lang: [language]-[region]                # Langue d'origine du projet
+
+documentation-is-translation:              # Si ce manifeste contient de la documentation traduite d'un autre projet, donner les infos de l'original
+  title: [value]                           # Texte | Titre du manifeste original
+  manifest: [value]                        # URL - chemin absolu | localisation du manifeste OKH
+  web: [value]                             # URL - chemin absolu | site web si existant
+  lang: [language]-[region]                # Langue d'origine de la documentation traduite
+
+# Propriétés du projet
+
+title: Le recto-cube, premier cube intelligent !                             # Requis | texte | Titre pour identifier le projet
+
+description: |                             # Requis | paragraphe décrivant le projet
+  Le recto-cube est un petit projet très facile et rapide à réaliser. Il consiste en un cube télécommandé pouvant
+  affiché une coche (oui) ou une croix (non) sur un panneau de led pour donner l'illusion que le cube est intelligent
+  en répondant à d'éventuelles questions par oui ou non. Le reste du temps le microbit clignote de manière aléatoire.
+
+intended-use: |                            # recommandé | Paragraphe expliquant l'usage recherché du projet
+  L'objet peut être utilisé par les amateurs de Jeu de Rôle, de Jeu de Rôle Grandeur Nature, d'Escape Game ou Simplement
+  par n'importe qui qui voudrait faire une blague un peu rigolote à un amis. Ce projet a aussi un objectif pédagogique
+  comme exemple dans l'apprentissage de l'utilisation de micro-bits.
+
+keywords:                                  # Au moins un mot clé est recommandé pour faciliter le référencement | texte, tableau
+  - Recto-cube
+  - Microbit
+  - Micro-bit
+  - Microbits
+  - Micro-bits
+  - Python
+  - Programmation
+  - 3D Printing
+  - RPG
+  - JDR
+  - Jeu de role
+  - Role playing game
+  - Electronique
+  - Electronics
+
+project-link: https://www.fablab-moebius.org/2020/le-recto-cube-premier-cube-intelligent/                      # Le lien vers le projet ou la documentation est requis, sinon recommandé | url en chemin absolu
+
+
+contact:                                   # Coordonnées du contact
+  name: Villafruela                            # Nom | texte
+  affiliation: Fablab Moebius                     # Affiliation | texte
+  email: n.villafruela@fablab-moebius.org                          # Adresse email
+  social:                                  # Réseau social
+    - platform: Twitter                    # Nom de la plateforme (ex. Twitter, Facebook etc.)
+      user-handle: nvillafruela                # Nom de l'utilisateur
+
+image: https://www.fablab-moebius.org/wp-content/uploads/2020/02/recto-cube-1536x865.jpg                             # Image du projet recommandé | chemin absolu ou relatif
+
+version: 1.0                           # Version du projet | texte
+
+development-stage: Fully operational                 # Stade de développement | texte
+
+made: true                        # Si le projet a été réalisé | booléen - vrai ou faux
+
+made-independently: true           # Si le projet a été réalisé de manière indépendante| booléen - vrai ou faux
+                           # URL - chemin absolu | site web du projet
+
+# Licence(s)
+
+license:                                   # Au moins une licence est requise | Le format devrait contenir un identifiant SPDX. Voir https://spdx.org/licenses/
+  hardware: CC-BY-NC-4.0                        # Recommandé | Licence sous laquelle le matériel est distribué
+  documentation: CC-BY-NC-4.0                   # Recommandé | Licence sous laquelle la documentation est distribuée
+  software: CC-BY-NC-4.0                        # Recommandé si un logiciel est utilisé dans le projet | Licence sous laquelle le logiciel est distribué
+
+licensor:                                  # Personne concédant la licence
+  name: Villafruela                            # Nom | texte
+  affiliation: Fablab Moebius                     # Affiliation | texte
+  email: n.villafruela@fablab-moebius.org                           # Adresse email
+
+# Documentation
+
+documentation-home: https://youtu.be/PoNT_jfRJMU               # Au moins un lien vers le projet ou la documentation est requis | chemin absolu
+
+bom: https://www.fablab-moebius.org/2020/le-recto-cube-premier-cube-intelligent/                              # Liste des composants nécessaires au projet (bill of materials) recommandé | chemin absolu ou relatif | rediriger le maker vers cette liste
+
+
+design-files:                             # Fichiers du design | recommandé
+  - path: https://github.com/Villafruela/Recto-Cube                         # Chemin absolu ou relatif
+    title: 3D print files                        # Nom du fichier | text                       # Liste des outils (recommandé) | chemin absolu ou relatif | Rediriger le maker vers la liste d'outils nécéssaire pour construire l'objet
+
+making-instructions:                      # Instructions d'assemblage | Recommandé
+  - path: https://youtu.be/PoNT_jfRJMU                         # Chemin absolu ou relatif
+    title: Le recto-cube, premier cube intelligent !                        # Nom du fichier | texte
+                        # Nom du fichier | texte
+
+operating-instructions:                   # Informations sur le fonctionnement de l'objet | recommandé
+  - path: https://youtu.be/PoNT_jfRJMU                         # Chemin absolu ou relatif
+    title: Le recto-cube, premier cube intelligent !                        # Nom du fichier | texte
+
+                        # Nom du fichier | texte
+
+software:                                 # Recommandé si applicable | Code source ou logiciel utilisé par l'objet
+  - path: https://github.com/Villafruela/Recto-Cube                         # Chemin absolu ou relatif
+    title: emeteur.py                        # Nom du fichier | texte
+  - path: https://github.com/Villafruela/Recto-Cube                         # Chemin absolu ou relatif
+    title: recepteur.py  
+
+# Champs définis par l'utilisateur
+# Rajoutez n'importe quel champ supplémentaire ou personnalisé après cette ligne
