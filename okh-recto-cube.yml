@@ -1,5 +1,4 @@
-%Nom du Manifeste / Projet 1.0
----
+#Nom du Manifeste / Projet 1.0
 
 # Le contenu du manifeste de ce projet est licencié sous licence internationale Creative Comons 4.0
 # Les licences pour la modification et distribution du matériel, documentation, code source, etc. sont définies séparément.
@@ -21,18 +20,6 @@ manifest-author:                           # Auteur du manifeste / Projet
 manifest-language: fr-fr # fr-fr pour la france, fr-ca pour le canada français etc.
 
 documentation-language: fr-fr
-
-manifest-is-translation:                   # Si ce manifeste est la traduction d'un autre manifeste, donner les infos de l'original
-  title: [value]                           # Texte | Titre du projet original
-  manifest: [value]                        # URL - chemin absolu | localisation du manifeste OKH
-  web: [value]                             # URL - chemin absolu | site web si existant
-  lang: [language]-[region]                # Langue d'origine du projet
-
-documentation-is-translation:              # Si ce manifeste contient de la documentation traduite d'un autre projet, donner les infos de l'original
-  title: [value]                           # Texte | Titre du manifeste original
-  manifest: [value]                        # URL - chemin absolu | localisation du manifeste OKH
-  web: [value]                             # URL - chemin absolu | site web si existant
-  lang: [language]-[region]                # Langue d'origine de la documentation traduite
 
 # Propriétés du projet
 
@@ -124,7 +111,7 @@ software:                                 # Recommandé si applicable | Code sou
   - path: https://github.com/Villafruela/Recto-Cube                         # Chemin absolu ou relatif
     title: emeteur.py                        # Nom du fichier | texte
   - path: https://github.com/Villafruela/Recto-Cube                         # Chemin absolu ou relatif
-    title: recepteur.py  
+    title: recepteur.py
 
 # Champs définis par l'utilisateur
 # Rajoutez n'importe quel champ supplémentaire ou personnalisé après cette ligne
